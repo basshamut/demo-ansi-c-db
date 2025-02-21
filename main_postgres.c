@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "libpq-fe.h"
+#include <libpq-fe.h>
 
 void check_connection(PGconn *conn);
 void execute_query(PGconn *conn, const char *query);
